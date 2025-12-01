@@ -5,8 +5,8 @@ from airflow.providers.google.cloud.operators.dataproc import DataprocSubmitJobO
 
 PROJECT_ID = "vocal-sight-476612-r8"
 REGION = "europe-west1"
-CLUSTER_NAME = "cluster-5a89"      # << your existing cluster name
-CODE_BUCKET = "airbnb-code-bc"       # where your pyspark files are stored
+CLUSTER_NAME = "cluster-5a89"
+CODE_BUCKET = "airbnb-code-bc"
 
 PYSPARK_PATH = f"gs://{CODE_BUCKET}/pyspark-jobs"
 
